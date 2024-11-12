@@ -1,0 +1,136 @@
+/* ------------------------------------------------- */
+/* -----                 Layouts               ----- */
+/*  taken mostly from anuppuchin theme and modified  */
+/* ------------------------------------------------- */
+
+body {
+  -webkit-font-smoothing: antialiased;
+  --line-height-normal: 1.6em;
+  --line-height-tight: 1.2em;
+}
+
+.view-actions {
+  --icon-size: var(--icon-l);
+}
+
+.workspace-leaf {
+  box-shadow: none !important;
+  border-bottom: none !important;
+}
+
+.workspace-leaf-content {
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+/* Make left/right panel icons larger and a new color */
+.mod-left .clickable-icon,
+.mod-right .clickable-icon {
+  --icon-size: 1.2em;
+  color: hsla(calc(var(--accent-h) + 180),
+      calc(var(--accent-s) - 0%),
+      calc(var(--accent-l) + 0%),
+      1);
+}
+
+/* Move right icons at the top of the UI over a little */
+.workspace-leaf-resize-handle {
+  opacity: 0 !important;
+}
+
+/* Move left icons at the top of the UI over a little */
+.mod-right-split .workspace-tab-header-container-inner {
+  margin-left: 1em;
+}
+
+.mod-left-split .workspace-tab-header-container-inner {
+  margin-left: 1em;
+}
+
+.sidebar-toggle-button.mod-right {
+  padding-right: 1em;
+}
+
+.theme-dark {
+  --text-normal: hsla(var(--accent-h),
+      calc(var(--accent-s) - 20%),
+      calc(var(--accent-l) + 20%),
+      1);
+}
+
+/* Hide all Scrollbars */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: none;
+}
+
+.tabs-underline .mod-root .workspace-tab-header-container {
+  border-bottom: none;
+}
+
+body:not(.is-mobile) .workspace-split.mod-left-split .workspace-sidedock-vault-profile {
+  border-top: none;
+}
+
+div.cm-line {
+  text-align: justify;
+}
+
+.workspace-tab-container {
+  margin: 10px;
+  border-radius: 20px;
+  border: 4px solid hsla(var(--accent-h), var(--accent-s), 20%, 0.2);
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3), 4px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.workspace-tabs .workspace-leaf {
+  background-color: var(--background-primary);
+}
+
+.workspace-tabs {
+  background-color: var(--background-primary-alt);
+}
+
+.side-dock-actions {
+  background-color: var(--background-primary);
+  padding: 4px;
+  margin: 7px 0 0 0;
+  border-radius: 0 10px 10px 0;
+}
+
+.side-dock-settings {
+  background-color: transparent;
+  padding: 4px;
+  border-radius: 0 10px 0 0;
+}
+
+.workspace-ribbon {
+  padding: 0;
+  background-color: var(--background-primary-alt);
+  border: none;
+}
+
+.workspace-tab-header-container {
+  background-color: transparent;
+  border: none;
+}
+
+/* hide handle visibility when not hovered */
+.workspace-leaf-resize-handle {
+  border-color: transparent;
+}
+
+.is-mobile body,
+.is-mobile .app-container,
+.is-mobile .horizontal-main-container,
+.workspace-ribbon.mod-left.is-collapsed {
+  background: none;
+}
+
+.workspace-ribbon .sidebar-toggle-button {
+  background-color: var(--background-primary-alt);
+}

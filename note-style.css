@@ -1,0 +1,15 @@
+.theme-light .projectStyle {
+  background-color: #fffdfa;
+  --link-color: #d17d00;
+  --link-unresolved-color: #ca974b;
+  --link-external-color: #d17d00;
+  --inline-title-color: #d17d00;
+}
+
+.theme-light .noteStyle {
+  background-color: #fafffc;
+  --link-color: #81b000;
+  --link-unresolved-color: #96af50;
+  --link-external-color: #81b000;
+  --inline-title-color: #81b000;
+}

@@ -1,0 +1,31 @@
+/*Thanks to obadiahcruz for the pointers to make this work*/
+
+/*Files icon*/
+.clickable-icon.side-dock-ribbon-action .svg-icon.lucide-folder-closed, .mod-left-split .workspace-tab-header-inner-icon .svg-icon.lucide-folder-closed, .mod-right-split .workspace-tab-header-inner-icon .svg-icon.lucide-folder-closed {
+	color: #4F99D5;
+}
+
+/*Search icon*/
+.clickable-icon.side-dock-ribbon-action .svg-icon.lucide-search, .mod-left-split .workspace-tab-header-inner-icon .svg-icon.lucide-search, .mod-right-split .workspace-tab-header-inner-icon .svg-icon.lucide-search {
+	color: #408369;
+}
+
+/*Starred Icon*/
+.clickable-icon.side-dock-ribbon-action .svg-icon.lucide-bookmark, .mod-left-split .workspace-tab-header-inner-icon .svg-icon.lucide-bookmark, .mod-right-split .workspace-tab-header-inner-icon .svg-icon.lucide-bookmark {
+	color: #D7BB43;
+}
+
+/*Tags icon*/
+.clickable-icon.side-dock-ribbon-action .svg-icon.lucide-tags, .mod-left-split .workspace-tab-header-inner-icon .svg-icon.lucide-tags, .mod-right-split .workspace-tab-header-inner-icon .svg-icon.lucide-tags {
+	color: #DA7C2F;
+}
+
+/*Recent Files icon*/
+.clickable-icon.side-dock-ribbon-action .svg-icon.lucide-clock, .mod-left-split .workspace-tab-header-inner-icon .svg-icon.lucide-clock, .mod-right-split .workspace-tab-header-inner-icon .svg-icon.lucide-clock {
+	color: #A5354E;
+}
+
+/*Graph view icon*/
+*.clickable-icon.side-dock-ribbon-action .svg-icon.lucide-git-fork, .mod-left-split .workspace-tab-header-inner-icon .svg-icon.lucide-git-fork, .mod-right-split .workspace-tab-header-inner-icon .svg-icon.lucide-git-fork {
+	color: #9461A4;
+}*/

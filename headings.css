@@ -1,0 +1,20 @@
+body {
+  --h1-font: "Recoleta Alt";
+  --h2-font: "Recoleta Alt";
+  --h3-font: "Recoleta Alt";
+  --h4-font: "Recoleta Alt";
+  --h5-font: "Recoleta Alt";
+  --h6-font: "Recoleta Alt";
+  --h1-size: 1.5em;
+  --h2-size: 1.2142857143em;
+  --h3-size: 1em;
+  --h4-size: 0.9em;
+  --h5-size: 0.9em;
+  --h6-size: 0.9em;
+  --h1-weight: 500;
+  --h2-weight: 400;
+  --h3-weight: 400;
+  --h4-weight: 400;
+  --h5-weight: 400;
+  --h6-weight: 400;
+}
