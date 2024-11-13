@@ -1,0 +1,14 @@
+/* @settings
+
+name: Style Settings
+id: style-settings
+settings:
+    - 
+        id: labeled-nav
+        title: Enable Text Label for Navigation
+        type: class-toggle
+    - 
+        id: card-layout-open-light
+        title: Enable card layout (light mode)
+        type: class-toggle
+*/
