@@ -11,4 +11,8 @@ settings:
         id: card-layout-open-light
         title: Enable card layout (light mode)
         type: class-toggle
+    - 
+        id: card-layout-open-dark
+        title: Enable card layout (dark mode)
+        type: class-toggle
 */
