@@ -173,3 +173,47 @@ body:not(.is-mobile).card-layout-open-light.theme-light .workspace-tab-header-co
 body:not(.is-mobile).card-layout-open-light.theme-light .workspace-tabs:not(.mod-top) .workspace-tab-container {
     border-top: unset;
 }
+
+/* card layout dark*/
+body:not(.is-mobile).card-layout-open-dark.theme-dark .workspace::before {
+    display: none;
+}
+
+body:not(.is-mobile).card-layout-open-dark.theme-dark .workspace.is-left-sidedock-open .workspace-split.mod-horizontal.mod-left-split {
+    margin-right: 16px;
+}
+
+body:not(.is-mobile).card-layout-open-dark.theme-dark .workspace.is-right-sidedock-open .workspace-split.mod-horizontal.mod-right-split {
+    margin-left: 16px;
+}
+
+body:not(.is-mobile).card-layout-open-dark.theme-dark .workspace-split.mod-vertical {
+    gap: 16px
+}
+
+body:not(.is-mobile).theme-dark.card-layout-open-dark .workspace-tab-container {
+    border-radius: var(--card-border-radius-dark, 8px) !important;
+    overflow: hidden !important;
+    box-shadow: var(--card-shadow-dark, 0px 0px 0px 1px var(--background-modifier-border));
+}
+
+body:not(.is-mobile).card-layout-open-dark.theme-dark .workspace-tabs,
+body:not(.is-mobile).card-layout-open-dark.theme-dark .workspace-split {
+    overflow: visible !important;
+}
+
+body:not(.is-mobile).card-layout-open-dark.theme-dark .workspace-tabs,
+body:not(.is-mobile).card-layout-open-dark.theme-dark .workspace-tab-header-container {
+    background-color: transparent !important;
+}
+
+body:not(.is-mobile).card-layout-open-dark.theme-dark .workspace-tabs:not(.mod-top) .workspace-tab-container {
+    border-top: unset;
+}
+
+/* card highlight */
+body:not(.is-mobile).card-highlight-light.card-layout-open-light.theme-light .mod-root:has(.workspace-tabs+.workspace-tabs) .workspace-tabs.mod-active .workspace-tab-container,
+body:not(.is-mobile).card-highlight-dark.card-layout-open-dark.theme-dark .mod-root:has(.workspace-tabs+.workspace-tabs) .workspace-tabs.mod-active .workspace-tab-container {
+    outline-offset: 0px;
+    outline: 2px solid var(--color-accent-3);
+}
