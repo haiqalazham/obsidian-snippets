@@ -1,3 +1,7 @@
+.nav-folder-title {
+  font-weight: 500;
+}
+
 /*
     File Explorer Separators
     So this is super handy, I found a way to add visual separators below and above navigation items in the file explorer. 
@@ -6,6 +10,7 @@
     These styles go with
     https://github.com/replete/obsidian-minimal-theme-css-snippets
 */
+
 :root {
   --replete-custom-separators-vertical-padding: 6px;
   --replete-custom-separators-left-margin: -12px;
