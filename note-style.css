@@ -13,3 +13,7 @@
   --link-external-color: #81b000;
   --inline-title-color: #81b000;
 }
+
+body {
+  --blockquote-color: var(--text-muted);
+}
