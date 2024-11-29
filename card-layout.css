@@ -62,3 +62,18 @@ body:not(.is-mobile).is-popout-window .horizontal-main-container {
 .sidebar-toggle-button {
   --tab-container-background: var(--background-secondary) !important;
 }
+
+/* Floating tab style */
+.workspace-tab-header.is-active {
+  box-shadow: none;
+  border: var(--tab-outline-width) solid var(--tab-outline-color);
+  border-radius: 6px;
+}
+
+.workspace-tab-header-container-inner {
+  margin: 6px -5px 6px;
+}
+
+.workspace-tab-header::before, .workspace-tab-header::after {
+  display: none;
+}
