@@ -1,13 +1,14 @@
 .HyperMD-header-2::after, h2 {
     display: block;
     content: "";
-    padding-bottom: 2px;  
+    padding-bottom: .3em;  
     border-bottom: 1px solid var(--divider-color);
 }
 
 body {
   --blockquote-color: var(--text-muted);
-  /*
+  --line-height-normal: 1.8;
+/*   
   --h1-font: "Recoleta Alt";
   --h2-font: "Recoleta Alt";
   --h3-font: "Recoleta Alt";
