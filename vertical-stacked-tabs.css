@@ -1,0 +1,36 @@
+.mod-vertical .mod-stacked .workspace-leaf,
+.mod-stacked .workspace-tab-header {
+  width: var(--tab-stacked-pane-width);
+  max-width: unset !important;
+  min-width: unset !important;
+  left: unset !important;
+  right: unset !important;
+}
+
+.workspace .mod-root .workspace-tabs.mod-stacked .workspace-tab-container {
+  flex-direction: column;
+  overflow: hidden auto;
+  max-height: 100%;
+}
+
+.workspace .mod-root .workspace-tabs.mod-stacked .workspace-tab-container .workspace-tab-header {
+  width: var(--tab-stacked-pane-width);
+  height: var(--tab-header-height);
+  writing-mode: horizontal-tb;
+  text-orientation: mixed;
+  box-shadow: 0 1px 0 0 var(--tab-outline-color), var(--tab-stacked-shadow); /* Adjust shadow for vertical layout */
+}
+
+.workspace .mod-root .workspace-tabs.mod-stacked .workspace-tab-container .workspace-tab-header-inner {
+  padding: var(--size-4-2) var(--size-4-4) var(--size-4-2); /* Adjust padding for vertical layout */
+}
+
+.workspace .mod-root .workspace-tabs.mod-stacked .workspace-tab-container .workspace-tab-header-inner-title {
+  transform: none;
+  text-align: left;
+  text-orientation: mixed;
+}
+
+.markdown-preview-view {
+  overscroll-behavior: contain;
+}
